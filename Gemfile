@@ -10,3 +10,9 @@ gem 'rake'
 gem 'sqlite3'
 gem 'dotenv'
 gem 'puma'
+gem 'tzinfo'
+
+group :test do
+  gem 'rspec'
+  gem 'rack-test'
+end
